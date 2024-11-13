@@ -40,11 +40,11 @@ main {
 
 .content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     box-sizing: border-box; /* Incluye padding y border en el tamaño total */
-    margin-top: 20px; /* Ajusta el margen superior */
 }
 
 .table-title {
@@ -59,7 +59,7 @@ main {
 }
 
 .styled-table {
-    width: 200%; /* Estira la tabla horizontalmente */
+    width: 200%; /* Ajusta el ancho de la tabla */
     margin: 20px auto; /* Ajusta el margen superior e inferior */
     border-collapse: collapse;
     font-size: 1.2em; /* Tamaño considerable para visibilidad */
@@ -95,17 +95,20 @@ main {
 }
 
 .moving-image {
-    width: 30%;
-    max-width: 300px;
+    position: fixed;
+    right: 0;
+    top: 50%; /* Ajusta la posición superior para centrar verticalmente */
+    transform: translateY(-50%); /* Centra verticalmente */
+    width: 100px;
+    max-width: 100px;
     animation: moveImage 2s infinite alternate;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 0; /* Ajusta el margen superior */
 }
 
 @keyframes moveImage {
     from { transform: translateX(0); }
-    to { transform: translateX(20px); }
+    to { transform: translateX(-20px); }
 }
 
 nav {
