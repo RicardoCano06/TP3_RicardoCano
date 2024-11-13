@@ -5,30 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería de Autos</title>
     <link rel="stylesheet" href="estilos/pagina2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1 class="animated-text">¡Bienvenido a la Galería de Autos!</h1>
     </header>
     <main>
-        <img src="imagenes/imagen_pagina2.jpg" alt="Imagen en movimiento" class="moving-image">
+        <section>
+            <h2>Imágenes de Autos</h2>
+            <div class="car-details">
+                <div class="car-item">
+                    <img src="https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PN01,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&overlay=0&" alt="Tesla Model S" class="car-image" onclick="location.href='https://www.tesla.com/models'">
+                    <div class="car-description">
+                        <h3>Tesla Model S</h3>
+                        <p>El Model S Plaid tiene la aceleración más rápida de todos los vehículos en producción. La arquitectura de batería actualizada para todos los modelos Model S permite recorridos consecutivos por pista sin degradación del rendimiento. Las plataformas del Model S unen las tecnologías de tren motriz y batería para ofrecer un rendimiento, una autonomía y una eficiencia inigualables. La nueva arquitectura térmica del módulo y del paquete permite una carga más rápida y le proporciona más potencia y resistencia en todas las condiciones.</p>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MT356,$PR01,$W38A,$IPB2&view=STUD_FRONT34&model=m3&size=1920&bkba_opt=2&crop=0,0,0,0&overlay=0&" alt="Tesla Model 3" class="car-image" onclick="location.href='https://www.tesla.com/model3'">
+                    <div class="car-description">
+                        <h3>Tesla Model 3</h3>
+                        <p>Experimente nuestra unidad motriz Performance de última generación, la más potente jamás instalada en el Model 3, que permite más de 500 caballos de fuerza y de 0 a 60 mph en tan solo 2.9 segundos. Un nuevo sistema de amortiguación adaptativa mantiene el Model 3 Performance plantado en la carretera, para que puedas afrontar las curvas con confianza a cualquier velocidad con el máximo control y comodidad.</p>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX20,$PPSB,$WX00,$IBE00&view=FRONT34&model=mx&size=1920&bkba_opt=2&crop=0,0,0,0&overlay=0&" alt="Tesla Model X" class="car-image" onclick="location.href='https://www.tesla.com/modelx'">
+                    <div class="car-description">
+                        <h3>Tesla Model X</h3>
+                        <p>Con la mayor potencia y la aceleración más rápida de todos los SUV, el Model X Plaid es el SUV de mayor rendimiento jamás construido. La arquitectura de batería actualizada permite que las configuraciones Long Range y Plaid completen recorridos consecutivos sin degradación del rendimiento. Las plataformas del Model X unen las tecnologías de tren motriz y batería para una combinación inigualable de rendimiento, alcance y eficiencia. La nueva arquitectura térmica del módulo y el paquete permite una carga más rápida y le brinda más potencia y resistencia en todas las condiciones.</p>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTY36,$PN00,$WY19C,$INPB0&view=FRONT34&model=my&size=1920&bkba_opt=2&crop=0,0,0,0&overlay=0&" alt="Tesla Model Y" class="car-image" onclick="location.href='https://www.tesla.com/modely'">
+                    <div class="car-description">
+                        <h3>Tesla Model Y</h3>
+                        <p>Adelante, haz el viaje por carretera. Con hasta 337 millas (EPA est.) de alcance con una sola carga, es probable que necesite un descanso antes de que su Model Y lo haga. La tracción total de doble motor garantiza que esté listo para enfrentar cualquier condición de la carretera. Amplia gama para todo tipo de accionamiento. Desde la conducción diaria hasta los viajes familiares por carretera, carga del Model Y Es rápido, conveniente y accesible en cualquier lugar donde haya electricidad.</p>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="https://pngimg.com/d/tesla_cybertruck_PNG6.png" alt="Tesla Cybertruck" class="car-image" onclick="location.href='https://www.tesla.com/cybertruck'">
+                    <div class="car-description">
+                        <h3>Tesla Cybertruck</h3>
+                        <p>Un exoesqueleto de acero inoxidable ultraduro ayuda a reducir las abolladuras, los daños y la corrosión a largo plazo. Las reparaciones son sencillas y rápidas. Armor Glass puede resistir el impacto de una pelota de béisbol a 70 mph o granizo de clase 4. El vidrio acústico ayuda a que la cabina sea tan silenciosa como el espacio exterior.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <nav>
             <button class="styled-button" onclick="location.href='index.html'">Página Principal</button>
             <button class="styled-button" onclick="location.href='pagina1.html'">Información de Autos</button>
         </nav>
-        <section>
-            <h2>Imágenes de Autos</h2>
-            <div class="car-images">
-                <img src="imagenes/ford.jpg" alt="Ford" class="car-image" onclick="location.href='https://www.ford.com'">
-                <img src="imagenes/chevrolet.jpg" alt="Chevrolet" class="car-image" onclick="location.href='https://www.chevrolet.com'">
-                <img src="imagenes/dodge.jpg" alt="Dodge" class="car-image" onclick="location.href='https://www.dodge.com'">
-                <img src="imagenes/tesla.jpg" alt="Tesla" class="car-image" onclick="location.href='https://www.tesla.com'">
-                <img src="imagenes/bmw.jpg" alt="BMW" class="car-image" onclick="location.href='https://www.bmw.com'">
-            </div>
-        </section>
     </main>
     <footer>
         <p>&copy; 2024 Ricardo Cano</p>
     </footer>
+    <img src="imagenes/logo.jpg" alt="Logo de Enkes Exclusive" class="moving-image">
 </body>
 </html>
